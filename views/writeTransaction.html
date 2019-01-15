@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="/upload_transaction" method="post">
+
+    <table cellpadding="0" cellspacing="0" border="0"
+           class="form_table">
+        <tr>
+            <td valign="middle" align="right">
+                type:
+            </td>
+            <td valign="middle" align="left">
+                <input type="text" name="typeName" />
+            </td>
+        </tr>
+
+        <tr>
+            <td valign="middle" align="right">
+                from:
+            </td>
+            <td valign="middle" align="left">
+                <input type="text" name="from_address"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td valign="middle" align="right">
+                to:
+            </td>
+            <td valign="middle" align="left">
+                <input type="text" name="to_address"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td valign="middle" align="right">
+                amount:
+            </td>
+            <td valign="middle" align="left">
+                <input type="text" name="amount"/>
+            </td>
+        </tr>
+
+    </table>
+
+    <input type="submit" class="button" value="Submit &raquo;" />
+
+</form>
+</body>
+</html>
